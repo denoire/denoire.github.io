@@ -30,6 +30,14 @@ export default function Hero() {
                     Start Reading
                 </a>
             </div>
+
+            <Image
+                src="/images/book.png"
+                alt="open book & glasses"
+                width={700}
+                height={700}
+                className="p-10"
+            />
         </section>
     );
 }
