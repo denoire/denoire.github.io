@@ -15,6 +15,21 @@ export default function Hero() {
             <p className="italic">
                 A small archive of things that matter
             </p>
+
+            <div className="mt-10 mb-2 flex">
+                <a
+                    href="#about"
+                    className="
+                        bg-amber-300
+                        hover:bg-amber-500
+                        text-lg
+                        py-2 px-5
+                        rounded-full
+                        shadow transition"
+                >
+                    Start Reading
+                </a>
+            </div>
         </section>
-);
+    );
 }
