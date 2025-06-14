@@ -7,7 +7,7 @@ import Divider from "./components/Divider.js";
 
 export default function Home() {
   return (
-      <>
+      <div className="font-[Patrick_Hand]">
           <Sidebar />
           <main className="relative pl-45 p-3 w-full">
               <Hero />
@@ -27,6 +27,6 @@ export default function Home() {
 
               <Closing />
           </main>
-      </>
+      </div>
   );
 }
