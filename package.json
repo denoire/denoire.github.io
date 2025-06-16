@@ -2,14 +2,13 @@
   "name": "denoire.github.io",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
   },
   "dependencies": {
     "next": "15.3.3",
