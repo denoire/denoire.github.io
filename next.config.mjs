@@ -1,15 +1,12 @@
-const isGhPages = process.env.DEPLOY_TARGET === 'gh-pages';
-const repo = 'denoire.github.io';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: isGhPages ? `/${repo}` : '',
-    assetPrefix: isGhPages ? `/${repo}/` : '',
+    trailingSlash: true,
     images: {
         unoptimized: true,
     },
-    trailingSlash: true,
+    basePath: '',
+    assetPrefix: '',
 };
 
-export default nextConfig;
+module.exports = nextConfig;
