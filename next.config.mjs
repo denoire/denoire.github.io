@@ -1,5 +1,5 @@
 const isGhPages = process.env.DEPLOY_TARGET === 'gh-pages';
-const repo = 'denoire';
+const repo = 'denoire.github.io';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
