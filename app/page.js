@@ -29,6 +29,13 @@ export default function Home() {
               <Section id="1" />
               <Divider />
 
+              <Chapter
+                  title="Activities"
+                  text="Simplicity and depth aren’t mutually exclusive. I prefer things that are steady and undemanding;
+                   they never ask ask for justification, and they don’t require urgency to feel important. They aren’t
+                   rituals in the strict sense. They tend to come around on their own terms—unplanned, unannounced.
+                   Random, maybe, but not unwelcome. These are the activities I trust to keep me untethered in life."
+              />
               <Section id="2" />
               <Divider />
 
