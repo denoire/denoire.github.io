@@ -5,13 +5,15 @@ import Section from "./components/Section.js";
 import Closing from "./components/Closing.js";
 import Divider from "./components/Divider.js";
 import Chapter from "./components/Chapter";
-
 export default function Home() {
   return (
       <div className="font-[Patrick_Hand]">
           <Sidebar />
           <main className="relative pl-45 p-3 w-full">
               <Hero />
+              <Divider />
+
+              <About />
               <Divider />
 
               <Chapter
@@ -24,9 +26,6 @@ export default function Home() {
                     asks more questions than it answers, or if its beauty lies in the stillness of reflection. I find that
                     quite elegant. Here are some such pieces that I find myself returning to."
               />
-              <About />
-              <Divider />
-
               <Section id="1" />
               <Divider />
 
