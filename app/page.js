@@ -10,7 +10,6 @@ export default function Home() {
       <div className="font-[Patrick_Hand]">
           <Sidebar />
           <main className="relative pl-45 p-3 w-full">
-              <div>test</div>
               <Hero />
               <Divider />
 
