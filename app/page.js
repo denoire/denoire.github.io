@@ -39,6 +39,11 @@ export default function Home() {
               <Section id="2" />
               <Divider />
 
+              <Chapter
+                  title="Inspirations"
+                  text="This is asection for what inspires me deeply. It runs a little longer, but that feels fair;
+                  things that matter tend to unfold slowly."
+              />
               <Section id="3" />
               <Divider />
 
