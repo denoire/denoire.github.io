@@ -11,7 +11,7 @@ export default function Chapter({title, text}) {
         >
             <div className="text-center">
                 <h2 className="text-4xl font-bold mb-5">{title}</h2>
-                <p className="text-lg italic text-gray-500 px-20">{text}</p>
+                <p className="text-lg italic text-gray-500 px-30">{text}</p>
             </div>
         </section>
     );
