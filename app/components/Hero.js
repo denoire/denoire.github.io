@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from "react";
 
 export default function Hero() {
@@ -31,7 +30,7 @@ export default function Hero() {
                 </a>
             </div>
 
-            <Image
+            <img
                 src="/images/book.png"
                 alt="open book & glasses"
                 width={700}
