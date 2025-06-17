@@ -41,7 +41,7 @@ export default function Home() {
 
               <Chapter
                   title="Inspirations"
-                  text="This is asection for what inspires me deeply. It runs a little longer, but that feels fair;
+                  text="This is a section for what inspires me deeply. It runs a little longer, but that feels fair;
                   things that matter tend to unfold slowly."
               />
               <Section id="3" />
