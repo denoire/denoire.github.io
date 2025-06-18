@@ -1,10 +1,11 @@
 import Sidebar from './components/Sidebar.js';
 import Hero from './components/Hero.js';
 import About from "./components/About";
-import Section from "./components/Section.js";
 import Closing from "./components/Closing.js";
 import Divider from "./components/Divider.js";
 import Chapter from "./components/Chapter";
+import Page from "./components/Page.js";
+
 export default function Home() {
   return (
       <div className="font-[Patrick_Hand]">
@@ -26,7 +27,31 @@ export default function Home() {
                     asks more questions than it answers, or if its beauty lies in the stillness of reflection. I find that
                     quite elegant. Here are some such pieces that I find myself returning to."
               />
-              <Section id="1" />
+              <Page
+                  heading="The Stranger"
+                  text="The Stranger is a novel that follows a man who seems unusually detached from the world around him,
+                  responding to major events with striking emotional indifference. His behaviour feels strange at first,
+                  but as the story unfolds, that emptiness becomes harder to ignore and begins to unsettle the reader in
+                  a more personal way. It leaves you questioning not just him but ourselves; why we need emotion to follow
+                  a script, why we rely on others to affirm that life has meaning, and what it says about us when they don’t.
+                  I think Albert Camus is quite interesting. I might also recommend The Myth of Sisyphus, though it can be
+                  a tougher read."
+                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  alt=""
+              />
+              <Page
+                  heading="Elegy Written in a Country Churchyard"
+                  text="This poem is quiet reflection on the lives of forgotten villagers buried in a country graveyard.
+                    It’s a gentle meditation on death, memory, and the value of those who pass without recognition.
+                    There’s a well known anecdote that on the eve of the Battle of the Plains of Abraham (during the Seven
+                    Years’ War), British General James Wolfe read the poem aloud to his officers. After reading it, he
+                    reportedly said: “Gentlemen, I would rather have written that poem than take Quebec tomorrow.”
+                    I think it’s quite an interesting addition to the poem’s lore. You can find the poem here, and if
+                    you're finding old English hard to dissect, a rough translation may help."
+                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  alt=""
+                  reverse
+              />
               <Divider />
 
               <Chapter
@@ -36,7 +61,29 @@ export default function Home() {
                    rituals in the strict sense. They tend to come around on their own terms—unplanned, unannounced.
                    Random, maybe, but not unwelcome. These are the activities I trust to keep me untethered in life."
               />
-              <Section id="2" />
+              <Page
+                  heading="Swimming"
+                  text="I’m not sure I could explain it in a way that would make sense to anyone else, but Ladner Leisure
+                    Center feels frozen in time. And it isn’t just the faded tiles or the scent of chlorine—it’s like stepping
+                    back into a memory that never fully left. I often enjoy swimming as a workout that doesn’t ask for too
+                    much, but it’s never just about exercise. I’ve tried other places, but they always feel like they’re
+                    meant for someone else. This one gives me a space that always feels the same, no matter what's going
+                    on outside."
+                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  alt=""
+                  reverse
+              />
+              <Page
+                  heading="Tea"
+                  text="These days, tea is more of a ritual than a beverage. Good tea begins with a moment—the choice to
+                    slow down. It starts when you make space for it, both physically and mentally. It’s a state of mind.
+                    There’s something almost sacred about the tranquility that surrounds a late afternoon cup. But tea
+                    isn’t always slow or solitary; some cups arrive earlier. Green tea, for instance, often accompanies
+                    a productive morning. And other cups are brewed in borrowed spaces—La Petite Cuillère is one that’s
+                    worth a visit."
+                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  alt=""
+              />
               <Divider />
 
               <Chapter
@@ -44,7 +91,29 @@ export default function Home() {
                   text="This is a section for what inspires me deeply. It runs a little longer, but that feels fair;
                   things that matter tend to unfold slowly."
               />
-              <Section id="3" />
+              <Page
+                  heading="heading"
+                  text="Paul Erdős was a Hungarian mathematician renowned for his extensive contributions to number theory,
+                    combinatorics, graph theory, and probability. Over his lifetime, he published over 1,500 papers in
+                    collaboration with more than 500 mathematicians, living out of a suitcase and devoting nearly every
+                    moment to the pursuit of mathematics. Erdős had no permanent address, no possessions, and no interest
+                    in material wealth. Though he received several prestigious awards, he often gave away the prize money
+                    to support students, help struggling mathematicians, or fund mathematical prizes. He once said that
+                    “the purpose of life is to conjecture and prove.” To conjecture is to wonder aloud, to take risks in
+                    the unknown. To prove is to follow that curiosity with discipline. For Erdős, to live fully was to hold
+                    curiosity as a gift, to pursue ideas with relentless focus, and to leave the door open behind him.
+                    His days were shaped by a steady devotion to work, driven by the joy of discovery. While many admire
+                    Erdős for his legacy in mathematics, it’s a relatively small part of what inspires me. I like this particular
+                    excerpt, as it captures many of the parts I care about. Perhaps it’s why it’s stays with me longer than
+                    any list of bullet points and accolades. This site was inspired by Paul Erdős. There’s a saying:
+                    it isn’t one’s reputation, but the character behind it that truly matters. In mathematics, an Erdős number
+                    measures the collaborative distance between a person and Erdős himself—how many steps it takes, through
+                    shared papers, to reach him. But it’s more than just a number; it’s a symbol of how ideas connect us.
+                    A door works the same way. It marks a beginning, a path, a link in something larger. And no matter how
+                    far you are from the source, each step forward brings you closer to something that truly matters."
+                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  alt=""
+              />
               <Divider />
 
               <Closing />
