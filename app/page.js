@@ -5,6 +5,8 @@ import Section from "./components/Section.js";
 import Closing from "./components/Closing.js";
 import Divider from "./components/Divider.js";
 import Chapter from "./components/Chapter";
+import Page from "./components/Page.js";
+
 export default function Home() {
   return (
       <div className="font-[Patrick_Hand]">
@@ -26,7 +28,19 @@ export default function Home() {
                     asks more questions than it answers, or if its beauty lies in the stillness of reflection. I find that
                     quite elegant. Here are some such pieces that I find myself returning to."
               />
-              <Section id="1" />
+              <Page
+                  heading="heading"
+                  text="text"
+                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  alt=""
+              />
+              <Page
+                  heading="heading"
+                  text="text"
+                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  alt=""
+                  reverse
+              />
               <Divider />
 
               <Chapter
@@ -36,7 +50,19 @@ export default function Home() {
                    rituals in the strict sense. They tend to come around on their own terms—unplanned, unannounced.
                    Random, maybe, but not unwelcome. These are the activities I trust to keep me untethered in life."
               />
-              <Section id="2" />
+              <Page
+                  heading="heading"
+                  text="text"
+                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  alt=""
+                  reverse
+              />
+              <Page
+                  heading="heading"
+                  text="text"
+                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  alt=""
+              />
               <Divider />
 
               <Chapter
@@ -44,7 +70,12 @@ export default function Home() {
                   text="This is a section for what inspires me deeply. It runs a little longer, but that feels fair;
                   things that matter tend to unfold slowly."
               />
-              <Section id="3" />
+              <Page
+                  heading="heading"
+                  text="text"
+                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  alt=""
+              />
               <Divider />
 
               <Closing />
