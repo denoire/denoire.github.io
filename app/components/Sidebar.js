@@ -1,5 +1,34 @@
+"use client"
+import { useEffect, useState } from "react";
+
 export default function Sidebar() {
     const sections = ["about", "literature", "activities", "inspirations", "closing"];
+    const [labelOffsets, setLabelOffsets] = useState([]);
+
+    useEffect(() => {
+        const updatePositions = () => {
+            const positions = sections.map((id) => {
+                const el = document.getElementById(id);
+                if (!el) return 0;
+                const rect = el.getBoundingClientRect();
+                return rect.top + window.scrollY;
+            });
+
+            const totalHeight = positions[positions.length - 1] - positions[0];
+            const relativeOffsets = positions.map(pos => ((pos - positions[0]) / totalHeight) * 100);
+            setLabelOffsets(relativeOffsets);
+        };
+
+        updatePositions();
+
+        window.addEventListener("resize", updatePositions);
+        window.addEventListener("load", updatePositions);
+
+        return () => {
+            window.removeEventListener("resize", updatePositions);
+            window.removeEventListener("load", updatePositions);
+        };
+    }, []);
 
     return (
         <nav className="
@@ -14,7 +43,7 @@ export default function Sidebar() {
                     <li key={id}
                         style={{
                             position: 'absolute',
-                            top: `${(i / (sections.length - 1)) * 100}%`,
+                            top: `${labelOffsets[i] ?? 0}%`,
                             transform: 'translateY(-50%)',
                         }}
                     >
