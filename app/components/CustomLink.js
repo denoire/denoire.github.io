@@ -25,7 +25,7 @@ function CustomLink({ text, href, bubbleText }) {
                     bottom-full left-1/2 -translate-x-1/2
                     border border-gray-300
                     rounded-lg bg-white shadow-md
-                    px-3 py-2 mb-2
+                    px-3 py-2 mb-2 w-[30vw]
                     text-sm text-gray-600">
                     {bubbleText}
                 </span>
