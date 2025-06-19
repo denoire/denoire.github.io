@@ -36,7 +36,7 @@ export default function Home() {
                   a script, why we rely on others to affirm that life has meaning, and what it says about us when they don’t.
                   I think Albert Camus is quite interesting. I might also recommend The Myth of Sisyphus, though it can be
                   a tougher read."
-                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  image="images/stranger.jpg"
                   alt=""
               />
               <Page
@@ -48,7 +48,7 @@ export default function Home() {
                     reportedly said: “Gentlemen, I would rather have written that poem than take Quebec tomorrow.”
                     I think it’s quite an interesting addition to the poem’s lore. You can find the poem here, and if
                     you're finding old English hard to dissect, a rough translation may help."
-                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  image="images/elegy.jpeg"
                   alt=""
                   reverse
               />
@@ -69,7 +69,7 @@ export default function Home() {
                     much, but it’s never just about exercise. I’ve tried other places, but they always feel like they’re
                     meant for someone else. This one gives me a space that always feels the same, no matter what's going
                     on outside."
-                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  image="images/ladner-leisure-center.jpg"
                   alt=""
                   reverse
               />
@@ -81,7 +81,7 @@ export default function Home() {
                     isn’t always slow or solitary; some cups arrive earlier. Green tea, for instance, often accompanies
                     a productive morning. And other cups are brewed in borrowed spaces—La Petite Cuillère is one that’s
                     worth a visit."
-                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  image="images/tea.jpg"
                   alt=""
               />
               <Divider />
@@ -111,7 +111,7 @@ export default function Home() {
                     shared papers, to reach him. But it’s more than just a number; it’s a symbol of how ideas connect us.
                     A door works the same way. It marks a beginning, a path, a link in something larger. And no matter how
                     far you are from the source, each step forward brings you closer to something that truly matters."
-                  image="https://archive.org/download/placeholder-image//placeholder-image.jpg"
+                  image="images/paul-erdos.jpg"
                   alt=""
               />
               <Divider />
