@@ -9,14 +9,17 @@ export default function Sidebar() {
             left-6 top-1/2 -translate-y-1/2 h-2/3
             "
         >
-            <ul className="border border-red-500 flex flex-col text-center space-y-15">
-                {sections.map((section) => (
-                    <li key={section}>
-                        <a
-                            href={`#${section}`}
-                            className="border border-red-500 text-sm hover:underline"
-                        >
-                            {section}
+            <ul className="absolute left-5 h-full text-sm">
+                {sections.map((id, i) => (
+                    <li key={id}
+                        style={{
+                            position: 'absolute',
+                            top: `${(i / (sections.length - 1)) * 100}%`,
+                            transform: 'translateY(-50%)',
+                        }}
+                    >
+                        <a href={`#${id}`} className="hover:underline">
+                            {id.charAt(0).toUpperCase() + id.slice(1)}
                         </a>
                     </li>
                 ))}
