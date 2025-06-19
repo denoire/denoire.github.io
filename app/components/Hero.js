@@ -32,7 +32,7 @@ export default function Hero() {
 
             <img
                 src="/images/book.png"
-                alt="open book & glasses"
+                alt="Close-up of an open book with glasses laid across both pages"
                 width={700}
                 height={700}
                 className="p-10"
