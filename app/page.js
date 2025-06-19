@@ -92,7 +92,7 @@ export default function Home() {
                   things that matter tend to unfold slowly."
               />
               <Page
-                  heading="heading"
+                  heading="Paul Erdős"
                   text="Paul Erdős was a Hungarian mathematician renowned for his extensive contributions to number theory,
                     combinatorics, graph theory, and probability. Over his lifetime, he published over 1,500 papers in
                     collaboration with more than 500 mathematicians, living out of a suitcase and devoting nearly every
