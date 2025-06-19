@@ -12,6 +12,14 @@ export default function Closing() {
             <p className="text-lg leading-relaxed mb-6">
                 If you&apos;d care to return a thought, don&apos;t hesitate reach out.
             </p>
+            <div className="text-md font-mono text-blue-500">
+                <a
+                    href="mailto:thomas.albert.brigham@gmail.com"
+                    className="underline hover:text-blue-900 hover:text-[102%] transition-text duration-200"
+                >
+                    thomas.albert.brigham@gmail.com
+                </a>
+            </div>
         </section>
-);
+    );
 }
