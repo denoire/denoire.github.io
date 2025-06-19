@@ -14,11 +14,9 @@ export default function Sidebar() {
                 return element ? element.offsetTop : 0;
             });
 
-            const first = positions[0];
-            const last = positions[positions.length - 1];
-            const total = last - first || 1;
+            const containerHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const offsets = positions.map(pos => (pos / containerHeight) * 100);
 
-            const offsets = positions.map((pos) => ((pos - first) / total) * 100);
             setLabelOffsets(offsets);
         };
 
@@ -35,7 +33,7 @@ export default function Sidebar() {
     useEffect(() => {
         let frameId;
         const animateDot = () => {
-            const scrollY = window.scrollY + window.innerHeight / 2;
+            const scrollY = window.scrollY;
             const sectionElements = sections.map((id) => document.getElementById(id));
             const sectionOffsets = sectionElements.map((element) => element?.offsetTop ?? 0);
 
@@ -70,8 +68,8 @@ export default function Sidebar() {
             >
                 <div
                     ref={dotRef}
-                    className="absolute w-4 h-4 border-2  translate(-35%, -200%) bg-white rounded-full"
-                    style={{transform: "translate(-35%, -200%)"}}
+                    className="absolute w-4 h-4 border-2  bg-white rounded-full"
+                    style={{transform: "translate(-35%)"}}
                 />
                 <ul className="absolute left-5 h-full text-sm">
                     {sections.map((id, i) => (
@@ -79,7 +77,7 @@ export default function Sidebar() {
                             style={{
                                 position: 'absolute',
                                 top: `${labelOffsets[i] || 0}%`,
-                                transform: 'translateY(-50%)',
+                                transform: 'translateY(-10%)',
                             }}
                         >
                             <a href={`#${id}`} className="hover:underline">
