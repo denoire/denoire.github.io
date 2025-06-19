@@ -1,3 +1,5 @@
+import CustomLink from "@/app/components/CustomLink";
+
 export default function About() {
     return (
         <section
@@ -24,7 +26,14 @@ export default function About() {
                         This space reads much like a diary—a collection of memories—quietly linear but never strict.
                         You can wander through it, jump ahead, or pause wherever something stirs you.
                         Memories work the same way: like doors you pass without noticing, until one day you remember
-                        them and wonder what was behind. Even when closed, a door suggests that something lies beyond.
+                        them and wonder what was behind. Even when closed, a{' '}
+                        <CustomLink
+                            href=""
+                            text="door"
+                            bubbleText="A door to an external page, otherwise known as a hyperlink.
+                                This particular one is closed."
+                        />{' '}
+                        suggests that something lies beyond.
                         If you step through, it’s because you chose to, not because you were told to.
                         In case you felt like stepping through, the doors on this site remain ajar.
                         They aren’t meant to guide, but to resurface unexpectedly, the way memory does.

@@ -1,4 +1,4 @@
-export default function Page({heading, text, image, alt, reverse}) {
+export default function Page({heading, children, image, alt, reverse}) {
     return (
         <div
             id={heading.toLowerCase()}
@@ -10,13 +10,8 @@ export default function Page({heading, text, image, alt, reverse}) {
                 min-h-screen
             `}
         >
-            <div className="
-                border border-red-500
-                relative w-full
-                md:w-1/2  p-3"
-            >
+            <div className="relative w-full md:w-1/2  p-3">
                 <img
-                    className="border border-red-500"
                     src={image}
                     alt={alt}
                     width={800}
@@ -25,14 +20,13 @@ export default function Page({heading, text, image, alt, reverse}) {
             </div>
 
             <div className="
-                border border-red-500
                 flex flex-col
                 justify-center
                 w-full
                 text-center"
             >
-                <h3 className="border border-red-500 text-2xl font-bold mb-3">{heading}</h3>
-                <p className="border border-red-500 text-lg leading-relaxed">{text}</p>
+                <h3 className="text-2xl font-bold mb-3">{heading}</h3>
+                <p className="text-lg leading-relaxed">{children}</p>
             </div>
         </div>
     );
