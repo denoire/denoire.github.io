@@ -3,7 +3,6 @@ import { useState } from 'react';
 
 function CustomLink({ text, href, bubbleText }) {
     const [hovering, setHovering] = useState(false);
-
     return (
         <span
             onMouseEnter={() => setHovering(true)}
@@ -19,7 +18,7 @@ function CustomLink({ text, href, bubbleText }) {
                 transition
                 duration-900"
         >
-            {text}
+            <a href={href} target="_blank" >{text}</a>
             {hovering && bubbleText && (
                 <span className="
                     absolute
