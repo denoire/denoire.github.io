@@ -31,7 +31,7 @@ export default function Home() {
                 <Page
                     heading="The Stranger"
                     image="images/stranger.jpg"
-                    alt=""
+                    alt="Cover of The Stranger by Albert Camus"
                 >
                     The{' '}
                     <CustomLink
@@ -52,7 +52,7 @@ export default function Home() {
                 <Page
                     heading="Elegy Written in a Country Churchyard"
                     image="images/elegy.jpeg"
-                    alt=""
+                    alt="Antique printed page of Elegy Written in a Country Churchyard by Thomas Gray"
                     reverse
                 >
                     This poem is quiet reflection on the lives of forgotten villagers buried in a country graveyard.
@@ -82,7 +82,7 @@ export default function Home() {
                 <Page
                     heading="Swimming"
                     image="images/ladner-leisure-center.jpg"
-                    alt=""
+                    alt="Entrance to Ladner Leisure Centre, familiar and unchanged over the years"
                     reverse
                 >
                     I’m not sure I could explain it in a way that would make sense to anyone else, but{' '}
@@ -99,7 +99,7 @@ export default function Home() {
                 <Page
                     heading="Tea"
                     image="images/tea.jpg"
-                    alt=""
+                    alt="A teacup and teapot on a tray outdoors, with a soft sunset and distant view beyond the trees"
                 >
                     These days, tea is more of a ritual than a beverage. Good tea begins with a moment—the choice to
                     slow down. It starts when you make space for it, both physically and mentally. It’s a state of mind.
@@ -122,7 +122,7 @@ export default function Home() {
                 />
                 <Page
                     heading="Paul Erdős"
-                    alt=""
+                    alt="Paul Erdős in late life, wearing a suit and glasses, standing indoors with his hands folded behind him"
                     image="images/paul-erdos.jpg"
                 >
                     Paul Erdős was a Hungarian mathematician renowned for his extensive contributions to number theory,
