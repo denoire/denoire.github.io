@@ -1,7 +1,7 @@
 export default function Chapter({title, text}) {
     return (
         <section
-            id={title}
+            id={title.toLowerCase()}
             className="
             border border-red-500
             min-h-screen
