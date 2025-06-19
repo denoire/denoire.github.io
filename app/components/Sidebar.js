@@ -58,14 +58,34 @@ export default function Sidebar() {
     return (
         <nav className="
             z-1
-            fixed flex items-center
-            left-6 top-1/2 -translate-y-1/2 h-2/3
+            fixed flex flex-col items-center
+            left-12 top-1/2 -translate-y-5/11 h-2/3
             "
         >
+            <a href="#hero" className="absolute w-25 -top-30 left-1/2 -translate-x-1/2">
+                <img
+                    src="/images/corridor-of-memories.png"
+                    alt="Corridor of Memories"
+                    className="cursor-pointer hover:scale-105 transition-transform"
+                />
+
+            </a>
             <div
                 ref={containerRef}
-                className="relative h-full w-1 bg-black rounded-full"
+                className="relative h-full w-1 bg-black rounded-t-full"
             >
+                {labelOffsets.map((offset, i) => (
+                    <div
+                        key={`tick-${i}`}
+                        className="absolute left-1/2 -translate-x-1/2 bg-black"
+                        style={{
+                            top: `${offset}%`,
+                            width: "12px",
+                            height: "2px",
+                        }}
+                    />
+                ))}
+
                 <div
                     ref={dotRef}
                     className="absolute w-4 h-4 border-2  bg-white rounded-full"
@@ -77,7 +97,7 @@ export default function Sidebar() {
                             style={{
                                 position: 'absolute',
                                 top: `${labelOffsets[i] || 0}%`,
-                                transform: 'translateY(-10%)',
+                                transform: 'translateY(-40%)',
                             }}
                         >
                             <a href={`#${id}`} className="hover:underline">
@@ -88,5 +108,5 @@ export default function Sidebar() {
                 </ul>
             </div>
         </nav>
-);
+    );
 }
