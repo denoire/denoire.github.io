@@ -34,7 +34,8 @@ export default function About({reverse}) {
                                 Memories work the same way—like doors you pass without noticing, until one day you remember
                                 them and wonder what was behind. Even when closed, a{' '}
                                 <CustomLink
-                                    href=""
+                                    closed
+                                    href="#"
                                     text="door"
                                     bubbleText="A door to an external page, otherwise known as a hyperlink.
                                     This particular one is closed."
