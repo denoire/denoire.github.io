@@ -1,6 +1,9 @@
 export default function Chapter({title, text, reverse}) {
     return (
-        <div className="relative bg-paper shadow-sm rounded-s-md overflow-hidden">
+        <div
+            id={title.toLowerCase()}
+            className="relative bg-paper shadow-sm rounded-s-md overflow-hidden"
+        >
             <div
                 className={`
                     absolute top-0 h-full w-15 pointer-events-none z-1
@@ -10,7 +13,6 @@ export default function Chapter({title, text, reverse}) {
                 `}
             />
             <section
-                id={title.toLowerCase()}
                 className="min-h-screen relative bg-paper
                            flex flex-col justify-center items-center text-center"
             >

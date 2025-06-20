@@ -1,6 +1,9 @@
 export default function Page({heading, children, image, alt, reverse}) {
     return (
-        <div className="relative bg-paper shadow-sm rounded-s-md overflow-hidden">
+        <div
+            id={heading.toLowerCase()}
+            className="relative bg-paper shadow-sm rounded-s-md overflow-hidden"
+        >
             <div
                 className={`
                     absolute top-0 h-full w-15 pointer-events-none z-1
@@ -10,7 +13,6 @@ export default function Page({heading, children, image, alt, reverse}) {
                 `}
             />
             <div
-                id={heading.toLowerCase()}
                 className={`
                     ${reverse ? "" : "md:flex-row-reverse"}
                     flex flex-col md:flex-row 
