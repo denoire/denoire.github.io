@@ -6,9 +6,10 @@ export default function Page({heading, children, image, alt, reverse}) {
                 ${reverse ? "md:flex-row-reverse" : ""}
                 flex flex-col md:flex-row 
                 items-center min-h-screen
+                bg-paper px-10 py-5 space-x-10 
             `}
         >
-            <div className="relative w-full md:w-1/2  p-3">
+            <div className="relative w-full md:w-1/2">
                 <img
                     src={image}
                     alt={alt}
