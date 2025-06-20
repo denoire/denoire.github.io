@@ -32,6 +32,7 @@ export default function Home() {
                     drawn to pieces that slow me down and leaves space for silence, for doubt. I don’t mind when a text
                     asks more questions than it answers, or if its beauty lies in the stillness of reflection. I find that
                     quite elegant. Here are some such pieces that I find myself returning to."
+                    reverse
                 />
                 <Divider />
 
@@ -137,6 +138,7 @@ export default function Home() {
                     title="Inspirations"
                     text="This is a section for what inspires me deeply. It runs a little longer, but that feels fair;
                     things that matter tend to unfold slowly."
+                    reverse
                 />
                 <Divider />
 
