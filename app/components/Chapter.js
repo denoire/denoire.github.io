@@ -6,9 +6,8 @@ export default function Chapter({title, text, reverse}) {
         >
             <div
                 className={`
-                    absolute top-0 h-full w-15 pointer-events-none z-1
-                    ${reverse ? "right-0" : "left-0"}
-                    bg-gradient-to-${reverse ? "l" : "r"} 
+                    absolute top-0 h-full w-15 pointer-events-none z-[1]
+                    ${reverse ? "right-0 bg-gradient-to-l" : "left-0 bg-gradient-to-r"} 
                     from-black/8 via-transparent to-transparent
                 `}
             />
