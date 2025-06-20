@@ -27,11 +27,11 @@ export default function Home() {
                     title="Literature"
                     text="I’ve always paid attention to the architecture of thought. Writing is an abstraction of the
                     mind—a deliberate act of selection. And like any structure built under tension, sentences are fragile
-                    by design; a single imbalances echoes through the rest. Even now, I read like a writer and write like
+                    by design; a single imbalance echoes through the rest. Even now, I read like a writer and write like
                     a reader, because I admire literature that reads like thought and moves with a certain intimacy. I’m
-                    drawn to pieces that slow me down and leaves space for silence, for doubt. I don’t mind when a text
+                    drawn to pieces that slow me down and leave space for silence, for doubt. I don’t mind when a text
                     asks more questions than it answers, or if its beauty lies in the stillness of reflection. I find that
-                    quite elegant. Here are some such pieces that I find myself returning to."
+                    quite elegant. Here are a few such pieces that I find myself returning to."
                     reverse
                 />
                 <Divider />
@@ -47,13 +47,13 @@ export default function Home() {
                         text="Stranger"
                     />{' '} is a novel that follows a man who seems unusually detached from the world around him,
                     responding to major events with striking emotional indifference. His behaviour feels strange at first,
-                    but as the story unfolds, that emptiness becomes harder to ignore and begins to unsettle the reader in
-                    a more personal way. It leaves you questioning not just him but ourselves; why we need emotion to follow
+                    but as the story unfolds, that emptiness becomes difficult to ignore and begins to unsettle the reader in
+                    a more personal way. It leaves you questioning not just him, but ourselves—why we need emotion to follow
                     a script, why we rely on others to affirm that life has meaning, and what it says about us when they don’t.
                     I think Albert Camus is quite interesting. I might also recommend{' '}
                     <CustomLink
                         href="https://www2.hawaii.edu/~freeman/courses/phil360/16.f"
-                        text="The Myth of Sisyphus"
+                        text="The Myth of Sisyphus,"
                     />{' '}
                     though it can be a tougher read.
                 </Page>
@@ -66,16 +66,16 @@ export default function Home() {
                     alt="Antique printed page of Elegy Written in a Country Churchyard by Thomas Gray"
                     reverse
                 >
-                    This poem is quiet reflection on the lives of forgotten villagers buried in a country graveyard.
+                    This poem is a quiet reflection on the lives of forgotten villagers buried in a country graveyard.
                     It’s a gentle meditation on death, memory, and the value of those who pass without recognition.
-                    There’s a well known anecdote that on the eve of the Battle of the Plains of Abraham (during the Seven
+                    There’s a well-known anecdote that on the eve of the Battle of the Plains of Abraham (during the Seven
                     Years’ War), British General James Wolfe read the poem aloud to his officers. After reading it, he
-                    reportedly said: “Gentlemen, I would rather have written that poem than take Quebec tomorrow.”
-                    I think it’s quite an interesting addition to the poem’s lore. You can find the poem{' '}
+                    reportedly said: &#34;Gentlemen, I would rather have written that poem than take Quebec tomorrow.&#34;
+                    I think it adds something interesting to the poem’s lore. You can find the poem{' '}
                     <CustomLink
                         href="https://www.poetryfoundation.org/poems/44299/elegy-written-in-a-country-churchyard"
                         text="here"
-                    />, and if you&apos;re finding old English hard to dissect, a{' '}
+                    />, and if you find old English difficult to read, a{' '}
                     <CustomLink
                         href="https://www.litcharts.com/poetry/thomas-gray/elegy-written-in-a-country-churchyard"
                         text="rough translation"
@@ -88,7 +88,7 @@ export default function Home() {
                 <Chapter
                     title="Activities"
                     text="Simplicity and depth aren’t mutually exclusive. I prefer things that are steady and undemanding;
-                    they never ask ask for justification, and they don’t require urgency to feel important. They aren’t
+                    they never ask for justification, and they don’t require urgency to feel important. They aren’t
                     rituals in the strict sense. They tend to come around on their own terms—unplanned, unannounced.
                     Random, maybe, but not unwelcome. These are the activities I trust to keep me untethered in life."
                 />
@@ -96,14 +96,14 @@ export default function Home() {
 
                 <Page
                     heading="Swimming"
-                    image="images/ladner-leisure-center.jpg"
+                    image="images/ladner-leisure-centre.jpg"
                     alt="Entrance to Ladner Leisure Centre, familiar and unchanged over the years"
                     reverse
                 >
                     I’m not sure I could explain it in a way that would make sense to anyone else, but{' '}
                     <CustomLink
                         href="https://www.delta.ca/parks-recreation/sports-activities/programs-registration/aquatics"
-                        text="Ladner Leisure Center"
+                        text="Ladner Leisure Centre"
                     />{' '}
                     feels frozen in time. And it isn’t just the faded tiles or the scent of chlorine—it’s like stepping
                     back into a memory that never fully left. I often enjoy swimming as a workout that doesn’t ask for too
@@ -152,19 +152,21 @@ export default function Home() {
                     collaboration with more than 500 mathematicians, living out of a suitcase and devoting nearly every
                     moment to the pursuit of mathematics. Erdős had no permanent address, no possessions, and no interest
                     in material wealth. Though he received several prestigious awards, he often gave away the prize money
-                    to support students, help struggling mathematicians, or fund mathematical prizes. He once said that
-                    “the purpose of life is to conjecture and prove.” To conjecture is to wonder aloud, to take risks in
-                    the unknown. To prove is to follow that curiosity with discipline. For Erdős, to live fully was to hold
-                    curiosity as a gift, to pursue ideas with relentless focus, and to leave the door open behind him.
-                    His days were shaped by a steady devotion to work, driven by the joy of discovery. While many admire
-                    Erdős for his legacy in mathematics, it’s a relatively small part of what inspires me. I like{' '}
+                    to support students, help struggling mathematicians, or fund mathematical prizes.<br />
+                    To conjecture is to wonder aloud, to take risks in the unknown. To prove is to follow that curiosity
+                    with discipline. For Erdős, to live fully was to hold curiosity as a gift, to pursue ideas with relentless
+                    focus, and to leave the doors open behind him. His days were shaped by a steady devotion to work, driven
+                    by the joy of discovery. I imagine it’s the reason he once said, that &#34;the purpose of life is to
+                    conjecture and prove&#34;. While many admire Erdős for his mathematical legacy, it’s a relatively small
+                    part of what I find inspiring. I like{' '}
                     <CustomLink
                         href="https://archive.nytimes.com/www.nytimes.com/books/first/h/hoffman-man.html"
                         text="this"
                     />{' '}
-                    particular excerpt, as it captures many of the parts I care about. Perhaps it’s why it’s stays with
-                    me longer than any list of bullet points and accolades. This site was inspired by Paul Erdős. There’s a saying:
-                    it isn’t one’s reputation, but the character behind it that truly matters. In mathematics, an{' '}
+                    particular excerpt, as it captures many of the more important parts. Perhaps it’s why it stays with
+                    me longer than his bullet points and credentials. <br />
+                    There’s a saying:
+                    it’s not one’s reputation, but the character behind it that truly matters. In mathematics, an{' '}
                     <CustomLink
                         href="https://en.wikipedia.org/wiki/Erd%C5%91s_number"
                         text="Erdős number"
