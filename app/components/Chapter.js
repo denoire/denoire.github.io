@@ -3,7 +3,7 @@ export default function Chapter({title, text}) {
         <section
             id={title.toLowerCase()}
             className="
-                min-h-screen relative bg-[#fdf6e3]
+                min-h-screen relative bg-paper
                 flex flex-col justify-center items-center text-center
             "
         >
