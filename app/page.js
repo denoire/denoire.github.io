@@ -12,7 +12,10 @@ export default function Home() {
     return (
         <div className="font-[Patrick_Hand]">
             <Sidebar />
-            <main className="relative pl-45 p-3 w-full">
+            <main className="relative w-full pl-45 p-3
+                            bg-repeat bg-fixed bg-[length:125px_125px]
+                             bg-[url('/images/flowers.png')]"
+            >
                 <Hero />
                 <Divider />
                 <About />
