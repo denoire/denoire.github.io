@@ -3,10 +3,9 @@ export default function Closing() {
         <section
             id="closing"
             className="
-            border border-red-500
             min-h-screen
-            flex flex-col justify-center items-center text-center
-            "
+            flex flex-col justify-center
+            items-center text-center"
             style={{
                 backgroundImage: `
                     radial-gradient(
@@ -27,7 +26,7 @@ export default function Closing() {
             <div className="max-w-xl absolute mb-[60vh]">
                 <h2 className="text-[#f0e8db] text-5xl font-bold mb-5">Until Next Time</h2>
                 <p className="text-[#f0e8db] text-lg leading-relaxed mb-3">
-                    If you&apos;d care to return a thought, don&apos;t hesitate reach out.
+                    If you&apos;d care to return a thought, don&apos;t hesitate to reach out.
                 </p>
                 <div className="text-md font-mono text-blue-500">
                     <a

@@ -2,31 +2,40 @@ export default function Page({heading, children, image, alt, reverse}) {
     return (
         <div
             id={heading.toLowerCase()}
-            className={`
-                ${reverse ? "md:flex-row-reverse" : ""}
-                md:flex-row items-center 
-                flex flex-col 
-                border border-red-500
-                min-h-screen
-            `}
+            className="relative bg-paper shadow-sm rounded-s-md overflow-hidden"
         >
-            <div className="relative w-full md:w-1/2  p-3">
-                <img
-                    src={image}
-                    alt={alt}
-                    width={800}
-                    height={600}
-                />
-            </div>
-
-            <div className="
-                flex flex-col
-                justify-center
-                w-full
-                text-center"
+            <div
+                className={`
+                    absolute top-0 h-full w-15 pointer-events-none z-1
+                    ${reverse ? "right-0" : "left-0"}
+                    bg-gradient-to-${reverse ? "l" : "r"} 
+                    from-black/8 via-transparent to-transparent
+                `}
+            />
+            <div
+                className={`
+                    ${reverse ? "" : "md:flex-row-reverse"}
+                    flex flex-col md:flex-row 
+                    items-center min-h-screen
+                    px-20 py-5 gap-x-10 
+                `}
             >
-                <h3 className="text-2xl font-bold mb-3">{heading}</h3>
-                <p className="text-lg leading-relaxed">{children}</p>
+                <div className="relative w-full md:w-1/2">
+                    <img
+                        src={image}
+                        alt={alt}
+                        width={800}
+                        height={600}
+                    />
+                </div>
+
+                <div className="
+                    w-full flex flex-col
+                    justify-center text-center"
+                >
+                    <h3 className="text-2xl font-bold mb-3">{heading}</h3>
+                    <p className="text-lg leading-relaxed">{children}</p>
+                </div>
             </div>
         </div>
     );
