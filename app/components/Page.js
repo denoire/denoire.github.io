@@ -4,10 +4,8 @@ export default function Page({heading, children, image, alt, reverse}) {
             id={heading.toLowerCase()}
             className={`
                 ${reverse ? "md:flex-row-reverse" : ""}
-                md:flex-row items-center 
-                flex flex-col 
-                border border-red-500
-                min-h-screen
+                flex flex-col md:flex-row 
+                items-center min-h-screen
             `}
         >
             <div className="relative w-full md:w-1/2  p-3">
@@ -20,10 +18,8 @@ export default function Page({heading, children, image, alt, reverse}) {
             </div>
 
             <div className="
-                flex flex-col
-                justify-center
-                w-full
-                text-center"
+                w-full flex flex-col
+                justify-center text-center"
             >
                 <h3 className="text-2xl font-bold mb-3">{heading}</h3>
                 <p className="text-lg leading-relaxed">{children}</p>

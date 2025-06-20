@@ -3,10 +3,9 @@ export default function Closing() {
         <section
             id="closing"
             className="
-            border border-red-500
             min-h-screen
-            flex flex-col justify-center items-center text-center
-            "
+            flex flex-col justify-center
+            items-center text-center"
             style={{
                 backgroundImage: `
                     radial-gradient(

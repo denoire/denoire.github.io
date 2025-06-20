@@ -5,9 +5,7 @@ export default function About() {
         <section
             id="about"
             className="
-            border border-red-500
-            min-h-screen
-            relative bg-[#fdf6e3]
+            min-h-screen relative bg-[#fdf6e3]
             flex flex-col justify-center items-center text-center
             "
         >
