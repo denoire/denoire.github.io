@@ -17,6 +17,8 @@ export default function Home() {
                 <Divider />
                 <About />
 
+                {/* ———————————————————— CH1: Literature ———————————————————————————————————————————————————————————— */}
+
                 <Divider />
                 <Chapter
                     title="Literature"
@@ -76,6 +78,8 @@ export default function Home() {
                     />{' '}may help.
                 </Page>
 
+                {/* ———————————————————— CH2: Activities ———————————————————————————————————————————————————————————— */}
+
                 <Divider />
                 <Chapter
                     title="Activities"
@@ -122,6 +126,8 @@ export default function Home() {
                     />{' '}
                     is one that’s worth a visit.
                 </Page>
+
+                {/* ———————————————————— CH3: Inspirations ———————————————————————————————————————————————————————————— */}
 
                 <Divider />
                 <Chapter
