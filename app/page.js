@@ -6,6 +6,7 @@ import Divider from "./components/Divider.js";
 import Chapter from "./components/Chapter";
 import Page from "./components/Page.js";
 import CustomLink    from "./components/CustomLink";
+import Subdivider from "./components/Subdivider";
 
 export default function Home() {
     return (
@@ -14,10 +15,9 @@ export default function Home() {
             <main className="relative pl-45 p-3 w-full">
                 <Hero />
                 <Divider />
-
                 <About />
-                <Divider />
 
+                <Divider />
                 <Chapter
                     title="Literature"
                     text="I’ve always paid attention to the architecture of thought. Writing is an abstraction of the
@@ -28,6 +28,8 @@ export default function Home() {
                     asks more questions than it answers, or if its beauty lies in the stillness of reflection. I find that
                     quite elegant. Here are some such pieces that I find myself returning to."
                 />
+                <Divider />
+
                 <Page
                     heading="The Stranger"
                     image="images/stranger.jpg"
@@ -49,6 +51,9 @@ export default function Home() {
                     />{' '}
                     though it can be a tougher read.
                 </Page>
+
+                <Subdivider />
+
                 <Page
                     heading="Elegy Written in a Country Churchyard"
                     image="images/elegy.jpeg"
@@ -70,8 +75,8 @@ export default function Home() {
                         text="rough translation"
                     />{' '}may help.
                 </Page>
-                <Divider />
 
+                <Divider />
                 <Chapter
                     title="Activities"
                     text="Simplicity and depth aren’t mutually exclusive. I prefer things that are steady and undemanding;
@@ -79,6 +84,8 @@ export default function Home() {
                     rituals in the strict sense. They tend to come around on their own terms—unplanned, unannounced.
                     Random, maybe, but not unwelcome. These are the activities I trust to keep me untethered in life."
                 />
+                <Divider />
+
                 <Page
                     heading="Swimming"
                     image="images/ladner-leisure-center.jpg"
@@ -96,6 +103,9 @@ export default function Home() {
                     meant for someone else. This one gives me a space that always feels the same, no matter what&apos;s
                     going on outside.
                 </Page>
+
+                <Subdivider />
+
                 <Page
                     heading="Tea"
                     image="images/tea.jpg"
@@ -114,12 +124,13 @@ export default function Home() {
                 </Page>
 
                 <Divider />
-
                 <Chapter
                     title="Inspirations"
                     text="This is a section for what inspires me deeply. It runs a little longer, but that feels fair;
                     things that matter tend to unfold slowly."
                 />
+                <Divider />
+
                 <Page
                     heading="Paul Erdős"
                     alt="Paul Erdős in late life, wearing a suit and glasses, standing indoors with his hands folded behind him"
@@ -152,8 +163,8 @@ export default function Home() {
                     A door works the same way. It marks a beginning, a path, a link in something larger. And no matter how
                     far you are from the source, each step forward brings you closer to something that truly matters.
                 </Page>
-                <Divider />
 
+                <Divider />
                 <Closing />
             </main>
         </div>
